@@ -10,6 +10,7 @@
     - Resume washing cycle from the state when the power was lost.
     - Handle situation when the door is opened in the middle of a cycle.
     - Resume washing cycle when the door is closed
+
 > - Possible solution would be to store state into a memory as soon as it starts
 
 ## Language used
