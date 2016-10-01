@@ -31,4 +31,4 @@ The stages are:
 - ___Cadence NCSim:___ To compile and check logic design
 - ___Synopsys Design Compiler:___ To obtain the synthesized netlist from the design
 
-___NOTE:___ Refer to [report](Group report on washing machine module.pdf "Group report on washing machine module.pdf")?raw=true for detailed explanation of the project.
+___NOTE:___ Refer to [report](Group report on washing machine module.pdf "Group report on washing machine module.pdf") for detailed explanation of the project.
