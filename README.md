@@ -10,15 +10,7 @@
     - Resume washing cycle from the state when the power was lost.
     - Handle situation when the door is opened in the middle of a cycle.
     - Resume washing cycle when the door is closed
-
 > - Possible solution would be to store state into a memory as soon as it starts
-
-## Language used
-- ___Verilog:___ C like HDL is easier to comprehend and saves design time since the syntax is more concise that VHDL
-
-## Tools used
-- ___NCSim:___ To compile and check logic design
-- ___Synopsys Design Compiler:___ To obtain the synthesized netlist from the design
 
 ## Washing cycle stages (FSM states)
 The FSM states were defined as binary values using 3 bits since there were only 6 number of stages in this system. 3 bits allow the definition of 8 stages, hence 2 binary values are available for utilization in features introduced in future.
@@ -31,3 +23,10 @@ The stages are:
 6. ___Rinse agitate___ `(0x101)`
 > - Planning to modify to gray code since it saves the number of transitioning bits and hence saves circuit from being glitchy
 > - Possibility is that extra circuitry will increase size of system, but the size-to-glitch
+
+## Language used
+- ___Verilog:___ C like HDL is easier to comprehend and saves design time since the syntax is more concise that VHDL
+
+## Tools used
+- ___NCSim:___ To compile and check logic design
+- ___Synopsys Design Compiler:___ To obtain the synthesized netlist from the design
