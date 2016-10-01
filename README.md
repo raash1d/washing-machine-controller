@@ -31,4 +31,4 @@ The stages are:
 - ___Cadence NCSim:___ To compile and check logic design
 - ___Synopsys Design Compiler:___ To obtain the synthesized netlist from the design
 
-___NOTE:___ Refer to [report]("https://github.com/raash-id/washing-machine-controller/blob/master/Group%20report%20on%20washing%20machine%20module.pdf") for detailed explanation of the project.
+___NOTE:___ Refer to [report]("Group report on washing machine module.pdf") for detailed explanation of the project.
