@@ -28,5 +28,5 @@ The stages are:
 - ___Verilog:___ C like HDL is easier to comprehend and saves design time since the syntax is more concise that VHDL
 
 ## Tools used
-- ___NCSim:___ To compile and check logic design
+- ___Cadence NCSim:___ To compile and check logic design
 - ___Synopsys Design Compiler:___ To obtain the synthesized netlist from the design
